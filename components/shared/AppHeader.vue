@@ -59,19 +59,20 @@ export default {
         <!-- Header logos -->
         <div>
           <NuxtLink to="/">
-            <img
+            <!-- <img
               v-if="this.$colorMode.value == 'dark'"
               src="~/static/logo-light.svg"
               class="w-36"
               alt="Light Logo"
-            />
+            /> -->
+            <h1 style="font-size:24px;">Ruthie.</h1>
 
-            <img
+            <!-- <img
               v-else
               src="~/static/logo-dark.svg"
               alt="Color Logo"
               class="w-36"
-            />
+            /> -->
           </NuxtLink>
         </div>
 

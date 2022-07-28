@@ -4,8 +4,8 @@ import { mapState } from "vuex";
 export default {
   data: () => {
     return {
-      projectName: "Nuxt.js & Tailwind CSS Portfolio",
-      author: "Stoman",
+      projectName: "Ruthie Portfolio",
+      author: "Ruthie",
     };
   },
   computed: {
@@ -25,7 +25,7 @@ export default {
     >
       &copy; {{ copyrightDate }}.
       <a
-        href="https://github.com/realstoman/nuxtjs-tailwindcss-portfolio"
+        href="https://github.com/ruthie2022"
         target="__blank"
         class="
           font-general-medium

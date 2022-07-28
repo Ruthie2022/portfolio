@@ -21,7 +21,7 @@ export const state = () => ({
       projectImages: [
         {
           id: uuidv4(),
-          title: "Uber Project Management UI",
+          title: "",
           img: "../images/ui-project-1.jpg",
         },
         {
@@ -54,7 +54,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Phone",
-          details: "555 8888 888",
+          details: "+2348137386435",
         },
       ],
       technologies: [
@@ -62,8 +62,11 @@ export const state = () => ({
         "CSS",
         "JavaScript",
         "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Bootstrap-vue",
+        "Bootstrap",
+        "Git",
+        "Firebase",
+        "Vuejs",
       ],
       projectDetails: [
         {
@@ -92,13 +95,13 @@ export const state = () => ({
           id: uuidv4(),
           name: "Twitter",
           icon: "twitter",
-          url: "https://twitter.com/realstoman",
+          url: "https://twitter.com/",
         },
         {
           id: uuidv4(),
           name: "Instagram",
           icon: "instagram",
-          url: "https://instagram.com/realstoman",
+          url: "https://instagram.com/",
         },
         {
           id: uuidv4(),
@@ -111,13 +114,7 @@ export const state = () => ({
           name: "LinkedIn",
           icon: "linkedin",
           url: "https://linkedin.com/",
-        },
-        {
-          id: uuidv4(),
-          name: "Youtube",
-          icon: "youtube",
-          url: "https://www.youtube.com/c/StomanStudio",
-        },
+        }
       ],
     },
     {
@@ -747,11 +744,20 @@ export const state = () => ({
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+      bio:"I'm Ruthie, a-year-old developer,an international business management student who\
+      specializes in front-end development. My mission is to create\
+      functional web applications that help improve the web experience."    
+      },
+    {
+      id: uuidv4(),
+      bio:"I am currently working as a front-end developer (freelancer), I specialise in developing Vue(nuxt) applications."
     },
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+      bio:"I improved my development skills by\
+      learning them myself. So far, I understand and make use of\
+      JavaScript, Vue.js, Nuxt.js, bootstrap-vue,\
+      CSS, Git, firebase,"
     },
   ],
   copyrightDate: new Date().getFullYear(),
@@ -760,25 +766,25 @@ export const state = () => ({
       id: uuidv4(),
       name: "GitHub",
       icon: "github",
-      url: "https://github.com/realstoman",
+      url: "https://github.com/ruthie2022",
     },
     {
       id: uuidv4(),
       name: "Twitter",
       icon: "twitter",
-      url: "https://twitter.com/realstoman",
+      url: "https://twitter.com/",
     },
     {
       id: uuidv4(),
       name: "Medium",
       icon: "book",
-      url: "https://stoman.medium.com",
+      url: "https://medium.com",
     },
     {
       id: uuidv4(),
       name: "Instagram",
       icon: "instagram",
-      url: "https://instagram.com/realstoman",
+      url: "https://instagram.com",
     },
   ],
   categories: [
@@ -786,22 +792,7 @@ export const state = () => ({
       id: uuidv4(),
       value: "web",
       name: "Web Application",
-    },
-    {
-      id: uuidv4(),
-      value: "mobile",
-      name: "Mobile Applicaiton",
-    },
-    {
-      id: uuidv4(),
-      value: "ui-ux",
-      name: "UI/UX Design",
-    },
-    {
-      id: uuidv4(),
-      value: "branding",
-      name: "Branding & Animations",
-    },
+    }
   ],
 });
 
